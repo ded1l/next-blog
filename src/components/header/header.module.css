@@ -1,0 +1,44 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+.head .ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    list-style-type: none;
+
+}
+.head .ul li{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    color: #000000;
+}
+.head .ul li a{
+    text-decoration: none;
+}
+.main{
+     border-bottom: #000000 1px solid;
+     z-index: 1;
+     
+     position: sticky;
+        top: 0;
+        background-color: #fff;
+
+
+}
+.ul a.active {
+    color: #0000ff;
+  }
+    .ul a:hover:not(.active) {
+        color: #0000ff;
+    }

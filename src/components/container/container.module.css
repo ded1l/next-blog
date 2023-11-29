@@ -1,0 +1,28 @@
+.container{
+
+    
+    width: 1100px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+/* For tablet screens */
+@media (max-width: 1100px) {
+    .container {
+        max-width: 870px; /* Make the container take up the full width on very small screens */
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 500px; /* Adjust the max-width as needed */
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    .container {
+        max-width: 320px; /* Make the container take up the full width on very small screens */
+    }
+}

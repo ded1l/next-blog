@@ -1,0 +1,44 @@
+.main{
+  
+}
+.border{
+    width: 100%;
+}
+.banner{
+    
+    width: 100%;
+    background-color: #eee;
+    height: 360px;
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+
+
+}
+
+.banner h3 {
+font-weight: 300;
+
+}
+.grid {
+    top: -100px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   
+    gap: 50px 30px;
+    animation: slid;
+    animation-duration: 0.5s;
+  }
+.card{
+    animation: slid;
+    animation-duration: 0.4s;
+}
+@keyframes slid {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
