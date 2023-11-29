@@ -1,4 +1,7 @@
 .card{
+    animation: slid;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
 }
 .card .pics{
     
@@ -30,4 +33,12 @@
 .pics img{
     object-fit: cover;
     width: 100%;
+}
+@keyframes slid {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
