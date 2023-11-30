@@ -8,10 +8,12 @@
     
     width: 100%;
     background-color: #eee;
-    height: 360px;
+    height: 380px;
     display: flex;
 justify-content: flex-end;
 align-items: center;
+font-size: 24px;
+
 
 
 }
