@@ -23,6 +23,6 @@
 /* For mobile screens */
 @media (max-width: 480px) {
     .container {
-        max-width: 320px; /* Make the container take up the full width on very small screens */
+        max-width: 330px; /* Make the container take up the full width on very small screens */
     }
 }

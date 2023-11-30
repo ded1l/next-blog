@@ -11,7 +11,7 @@ export default function Footer() {
             <Container>
             <div className={styles.inside}>
             
-                <h3 className={styles.left}>All Rights Reserved - Taha2023</h3>
+                <h4 className={styles.left}>All Rights Reserved - Taha2023</h4>
             
 
             <div className={styles.right}>

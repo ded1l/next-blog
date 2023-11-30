@@ -11,15 +11,17 @@
     justify-content: end;
     align-items: center;
     gap: 20px;
+    
 }
 .right a{
     color: #000;
     text-decoration: none;
-    font-size: 2.9rem;
-    font-weight: 300;
+    font-size: 2.4rem;
 }
 .left{
     top: 20px;
+    font-weight: 400;
+
   
 }
 .inside{
