@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 26px 0;
 }
 .banner{
     background-color: #ccc;
@@ -16,3 +17,6 @@ margin: 10% 0;
 .banner{
     position: relative;
 }
+.content{
+padding: 20px 0;
+margin-bottom: 40px;}
